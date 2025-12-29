@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Me Achei</string>
+
+    <string name="titulo_menu_principal">Menu Principal</string>
+    <string name="btn_onde_estou">Onde Estou?</string>
+    <string name="desc_onde_estou">Botão Onde Estou. Fala o seu endereço atual imediatamente.</string>
+    
+    <string name="btn_buscar_destino">Buscar Destino</string>
+    <string name="desc_buscar_destino">Botão Buscar Destino. Pesquise um endereço para iniciar o monitoramento.</string>
+    
+    <string name="btn_salvar_local">Salvar Este Local</string>
+    <string name="desc_salvar_local">Botão Salvar Local Atual. Grava onde você está agora para usar depois.</string>
+    
+    <string name="btn_locais_salvos">Meus Locais Salvos</string>
+    <string name="desc_locais_salvos">Botão Locais Salvos. Abre sua lista de locais favoritos.</string>
+    
+    <string name="btn_configuracoes">Configurações e Ajuda</string>
+    <string name="desc_configuracoes">Botão Configurações. Ajuste o botão de volume e permissões.</string>
+    
+    <string name="btn_fechar">Fechar Aplicativo</string>
+
+    <string name="titulo_buscar_local">Buscar Local</string>
+    <string name="hint_buscar_local">Digite nome ou endereço</string>
+    <string name="btn_falar_local">Falar nome do local</string>
+    <string name="btn_pesquisar">Pesquisar</string>
+    <string name="txt_resultados">Resultados:</string>
+
+    <string name="titulo_editar_local">Editar Local</string>
+    <string name="hint_nome_local">Nome do local</string>
+    <string name="btn_salvar_alteracoes">Salvar Alterações</string>
+
+    <string name="titulo_locais_salvos">Meus Locais Salvos</string>
+
+    <string name="msg_permissao_concedida">Permissão de localização concedida.</string>
+    <string name="msg_permissao_negada">O aplicativo precisa de acesso à localização para funcionar.</string>
+    <string name="msg_gps_erro">Não foi possível obter sua localização. Verifique o GPS.</string>
+    <string name="msg_buscando_endereco">Buscando endereço...</string>
+    <string name="msg_endereco_nao_encontrado">Endereço não encontrado.</string>
+    
+    <string name="notificacao_titulo">Monitorando Localização</string>
+    <string name="notificacao_chegou">Você chegou ao destino.</string>
+
+    <string name="desc_campo_busca">Campo de texto para digitar o endereço.</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu Principal"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:importantForAccessibility="yes" />
+
+        <Button
+            android:id="@+id/btnOndeEstou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Onde Estou?"
+            android:minHeight="60dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Botão Onde Estou. Fala o seu endereço atual imediatamente." />
+
+        <Button
+            android:id="@+id/btnBuscarLocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar Destino"
+            android:minHeight="60dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Botão Buscar Destino. Pesquise um endereço para iniciar o monitoramento." />
+
+        <Button
+            android:id="@+id/btnSalvarLocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar Este Local"
+            android:minHeight="60dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Botão Salvar Local Atual. Grava onde você está agora para usar depois." />
+
+        <Button
+            android:id="@+id/btnLocaisSalvos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meus Locais Salvos"
+            android:minHeight="60dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Botão Locais Salvos. Abre sua lista de locais favoritos." />
+
+        <Button
+            android:id="@+id/btnMaisOpcoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Configurações e Ajuda"
+            android:minHeight="60dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Botão Configurações. Ajuste o botão de volume e permissões." />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnFechar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fechar Aplicativo"
+            android:minHeight="48dp"
+            android:contentDescription="Botão Fechar Aplicativo." />
+
+    </LinearLayout>
+</ScrollView>
